@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./javascript/baogan.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Baogan</title>
+</head>
+<body>
+  <span class="ir-arriba icon-arrow-up2"><img src="./images/flecha.png" class="flecha" alt=""></span>
+    <main class="container">
+        
+            <div class="menu-principal row ">
+                <div class="col-12 col-lg-4 mt-4 img-fluid d-flex justify-content-center">
+                    <img class="logo"src="./images/logo.png" alt="">
+                    
+                </div>
+
+            <div class="col-12 col-lg-8 d-flex justify-content-center">
+                <ul class="menu nav nav-pills img-fluid justify-content-center fs-4 text navbar navbar-expand-lg h-100 ">
+                  
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link fs-2" aria-current="page" href="#baogan">Baogan</a>
+                 </li>
+                    <li class="nav-item">
+                     <a class="nav-link fs-2" href="#descubridores">Descubridores</a>
+                   </li>
+                 <li class="nav-item">
+                    <a class="nav-link fs-2" href="#aventurate">Aventúrate</a>
+                  </li>
+                 <li class="nav-item">
+                     <a class="nav-link fs-2" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Registrate</a>
+                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Registrate</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <div class="card p-3">
+                                                <div class="mb-3">
+                                                    <form action="">
+                                                        <div class="mb-3">
+                                                            <label for="nombre">Nombre</label>
+                                                            <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="apellidos">Apellidos</label>
+                                                            <input class="form-control" type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label class="ps-2" for="correo">Correo</label>
+                                                            <input class="form-control" type="text" name="correo" id="correo" placeholder="Correo electronico">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label class="ps-2" for="numero">Numero</label>
+                                                            <input class="form-control" type="text" name="numero" id="numero" placeholder="Celular">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="button btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="button btn-primary" >Enviar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                 </li>
+                </ul>
+              </div>
+                 </ul>
+                 </div>
+                 
+            </div>
+      
+
+      <div class="row">
+        <div class="seccion-p col-12 col-lg-6 mt-4 img-fluid d-flex justify-content-center">
+          <img class="video-inicio rounded" src="./images/escenario.png" width="100%" alt=""> 
+        </div>
+        <div class="seccion-p col-12 col-lg-6 mt-4 text-center text-lg-star ">
+            <h1 class="objetivo mt-5 d-flex justify-content-center rounded">Objetivo</h1>
+            <p class="contenido mt-2 rounded">Capacitar a personas que estén interesadas en conocer y aprender 
+            habilidades de primeros auxilios para los animales de compañía, ya sea porque quiere 
+            profesionalizarse en el área de salud de los animales o  simplemente quiere el el bienestar de ellos. </p>
+        </div>
+        
+      </div>
+      
+      <div class="linea mt-4 img-fluid d-flex justify-content-center"></div>
+
+    <div class="row mt-4 contenido-baogan">
+      <div class="col-12 col-lg-6 mt-5 img-fluid d-flex justify-content-center ">
+        <div class="d-flex align-items-center">
+        <img class="game w-100 rounded-circle ms-5" src="./images/game.gif" alt="">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 mt-4">
+          <h1 class="baogan d-flex justify-content-center text-center text-lg-start rounded mt-5" id="baogan">Baogan</h1>
+          <p class="contenido-p  rounded">“Baogan” es un proyecto creado para dar solución a la problemática del uso de la pólvora, usando los videojuegos donde podremos enseñar las consecuencias que trae el uso de esta, y así evitar pasar un mal rato por querer simple "diversión", ya que es perjudicial para todos. </p>
+      </div>
+  
+  </div>
+
+  <div class="linea2 mt-4 img-fluid d-flex justify-content-center"></div>
+
+  <div class=" mt-4 contenido-descubridores">
+      <div class="d-flex justify-content-center">
+      <img class="animación img-fluid d-flex justify-content-center" src="./images/compu.png" width="80%" alt=""> 
+   </div>
+      <div class="d-flex justify-content-center mt-4">
+        <h1 class="descubridores rounded" id="descubridores">Descubridores</h1>
+      </div>
+        
+          <div class="d-flex justify-content-center">
+          <div class="contenido-d accordion accordion-flush mt-4" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="boton-b rounded accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Nosotros <img class="Baogan ms-2"src="./images/icono1.png" alt="">
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="contenido-button accordion-body text-center text-lg-start">Somos los creadores de Baogan y nuestro objetivo es exponer el uso negativo de la pólvora por medio de un videojuego.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="boton-m rounded accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Misión <img class="mision ms-2" src="./images/icono2.png" alt="">
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="contenido-button accordion-body text-center text-lg-start">Enseñar a los jóvenes mediante los videojuegos las consecuencias que ocasiona el uso de la pólvora en el medio ambiente, los animales y las personas.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="boton-v rounded accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Visión <img class="vision ms-2" src="./images/icono3.png" alt="">
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="contenido-button accordion-body text-center text-lg-start">Lograr un cambio positivo en la juventud frente a la pólvora y concientizarse de las consecuencias que ocasiona esta, generando una mejor calidad ambiental, para los animales y las personas.</div>
+              </div>
+            </div>
+          </div>
+        </div>  
+          
+
+
+<div class="avent d-flex justify-content-center mt-4">
+<h1 class="aventurate d-flex justify-content-center rounded" id="aventurate">Aventúrate</h1>
+</div>
+<section class="fondo">
+  
+        <div class="row contenido-aventurate mt-4 d-flex justify-content-center">
+          <div class="col-sm-6">
+            <div class="card first border-warning">
+              <div class="card-body">
+                <h5 class="card-title">Videojuego</h5>
+                <p class="card-text text-center text-lg-start">El objetivo del videojuego es destruir los obstáculos lanzados por Baogan, para así poder salvar a las personas, animales y al mismo medio ambiente, y por último poder destruir a Baogan, el villano de la historia.</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card second border-warning">
+              <div class="card-body">
+                <h5 class="card-title">Pasos</h5>
+                <p class="card-text text-center text-lg-start">Cada jugador podrá elegir una habilidad a su personaje que puede ser Evita o Evito, a medida de que pasen los niveles y los obstáculos estarán más fuertes, por lo que las habilidades o poderes para elegir serán diferentes, todo lo que se les suministre les servirá a la hora de esquivar y ayudar a la población contra los ataques de Baogan.</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="d-flex carrusel justify-content-center mt-4">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" style="width: 400px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active rounded">
+            <img src="./images/evita.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item rounded">
+            <img src="./images/evito.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Baogan.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+</section>
+
+
+</div>
+<div class="btn d-flex justify-content-center mt-4">
+<button class="boton  rounded">Ir al juego</button>
+</div>
+    </main>
+    <div class="container-fluid">
+      <div class="col pie-p p-3 mt-4">
+      <div class="row">
+          
+      <h5 class="contactanos d-flex justify-content-center ">Contáctanos</h5>
+      <div class="d-flex justify-content-center mt-4 ms-4">
+          
+          <a href="#"><img class="icono1 btn-footer mt-2 me-5 " src="./images/face.png" alt=""></a>
+          <a  href="#"><img class="icono2 btn-footer mt-2 me-5 " src="./images/insta.png" alt=""></a>
+          <a  href="#"><img class="icono3 btn-footer mt-2 me-5" src="./images/twitter.png" alt=""></a>
+      </div>
+          
+      </div>
+
+      <div class="creditos text-center p-3 text-white fs-3" style="background-color: rgba(154, 25, 34, 0.671);">
+        ©Baogan 2023
+      </div>
+    </div>
+
+  </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
+</body>
+</html>
